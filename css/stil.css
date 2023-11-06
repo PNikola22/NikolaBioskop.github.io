@@ -1,0 +1,330 @@
+#navbarSupportedContent{
+    font-family:inherit;
+    font-size:30px;
+}
+
+.nav-link {
+    color: white !important;
+    } 
+
+#navigacija{ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+html{
+    scroll-behavior: smooth;  
+  }
+
+  .nav-item > a:hover {
+    font-weight: bolder;
+  
+
+  }
+
+  .navbar-toggler{
+    background-color: white;
+  }
+.divoviBorder{
+  border:1px solid white;
+  border-radius: 7px;
+  padding: 20px;
+  margin-top: 100px;
+}
+#pocetna {
+    width: 100vw;
+    height: 1200px;
+  }
+
+  body{
+    background-color:rgb(21, 39, 58);
+    overflow-x: hidden;
+  }
+
+  #index{
+    border: solid 1px  black;
+  }
+  /*Kontakt*/
+  .forma{
+   margin-top: 130px;
+  }
+
+  .alert-danger {
+   margin-left: 120px;
+   margin-right: 850px;
+  }
+  
+  #ime{
+   font-size: 12;
+   font-family:  sans-serif;
+   color: white;
+  }
+  #prezime{
+    font-size: 12;
+    font-family:sans-serif;
+    color: white;
+}
+  #email{
+    font-size: 12;
+    font-family: sans-serif;
+    color: white;
+  }
+  #poruka{
+    font-size: 12;
+    font-family: sans-serif;
+    color: white;
+  }
+  #onama{
+      margin-top: 100px;
+  }
+  #onama p{
+      font-family:initial;
+      font-size: 20px;
+      color:white;
+      filter: brightness(94%);
+      text-align:justify ;
+  }
+
+ #lokacije{
+     margin-top: 50px;
+     text-align: center;
+ }
+  #naslov{
+      font-size: 11;
+      font-family: initial;
+      color: white;
+      margin-top: 70px;
+      margin-left: 260px;
+      text-align: left;
+  }
+  #mapailokacije{
+      margin-right: 120px;
+      margin-left: 120px;
+      margin-top: 20px;
+  }
+  #mapa{
+      margin-bottom: 10px;
+      align-items: left;
+   
+  }
+  .film p,h3{
+      color: white;
+  }
+   
+#carouselExampleDark{
+	width: 100%;
+	height: 100%;
+}
+/*Galerija*/
+.carousel {
+    margin-bottom: 4rem;
+  }
+
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+
+  .carousel-item {
+    height: 55rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 55rem;
+  }
+  
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  
+  .featurette-divider {
+    margin: 5rem 0;
+  }
+  
+
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  #myCarousel>.carousel-inner>.carousel-item>.container>.carousel-caption>p>a:hover {
+      background-color: transparent;
+      border: solid whitesmoke 2px;
+
+  }
+  #katalog div{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+
+  .row>.col-lg-4>p>a:hover{
+    background-color: transparent;
+    border: solid #6c757d 2px;
+    color:#6c757d;
+  }
+  #prva {
+    border-radius: 15px !important;
+    cursor: pointer !important;
+  }
+  #prva:hover {opacity: 0.7 !important;}
+
+  #druga {
+    border-radius: 15px !important;
+    cursor: pointer !important;
+  }
+  
+  #druga:hover {opacity: 0.7 !important;}
+
+  #treca {
+    border-radius: 15px !important;
+    cursor: pointer !important;
+  }
+  
+  #treca:hover {opacity: 0.7 !important;}
+
+  #cetvrta {
+    border-radius: 15px !important;
+    cursor: pointer !important;
+  }
+  
+  #cetvrta:hover {opacity: 0.7 !important;}
+  
+  
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 65px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index:11;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  /*Repertoar*/
+ .card{
+     filter:brightness(77%);
+ }
+
+
+  /*Footer*/
+
+  footer {
+    background-color: #6c757d;
+    margin-top: 10px;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+    color:white;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#index h3,p{
+    color: white;
+}
+#index{
+    border: 1px solid white;
+}
+#izlazna{
+    margin-left: 5px;  
+}
+.izlaz{
+    margin-top: -70px;
+}
+
+  footer > p > a {
+    color:white;
+    text-decoration: none;
+  }
+
+  footer > p > a:hover {
+    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    color: rgb(109, 75, 75);
+  }
+
