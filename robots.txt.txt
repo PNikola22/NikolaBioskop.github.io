@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: https://pnikola22.github.io/NikolaBioskop.github.io/sitemap.xml
